@@ -526,6 +526,10 @@ header .navbar a:hover{
     padding:2rem;
   }
 
+  .row{
+    height: 100%;
+  }
+
 }
 
 @media(max-width:768px){
@@ -555,6 +559,10 @@ header .navbar a:hover{
     background:#fff;
   }
 
+  .row{
+    height: 100%;
+  }
+
 }
 
 @media(max-width:450px){
@@ -567,4 +575,14 @@ header .navbar a:hover{
     width:100%;
   }
 
+  .row{
+    height: 100%;
+  }
+
+}
+
+@media screen and (min-width:767px) and (min-height:768px){
+   .row{
+    height: 100%;
+   }
 }
